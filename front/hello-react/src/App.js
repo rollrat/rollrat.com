@@ -10,13 +10,13 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
+        Go to <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://api.rollrat.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          api.rollrat.com
         </a>
       </header>
     </div>
