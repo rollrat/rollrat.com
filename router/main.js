@@ -19,8 +19,8 @@ module.exports = function (app) {
     if (!(addr in ip_table))
       ip_table[addr] = 0;
     ip_table[addr] += 1;
-    response.write('Server Starts: ' + server_starts.format("yyyy-MM-dd hh:mm:ss"));
-    response.write('</br>Connection Time: ' + (new Date()).format("yyyy-MM-dd hh:mm:ss"));
+    response.write('Server Starts: ' + server_starts.toString());
+    response.write('</br>Connection Time: ' + (new Date()).toString());
     response.write('</br>Your IP: ' + addr);
     response.write('</br>Views Count: ' + view_count);
     response.write('</br>Visitors Count: ' + Object.keys(ip_table).length);
