@@ -28,7 +28,7 @@ module.exports = function (app) {
     response.write('</br>Visitors Count: ' + Object.keys(ip_table).length);
     response.write('</br>Your Views Count: ' + ip_table[addr]);
     response.write("</br>Blog: <a href=\"https://blog.naver.com/rollrat\">ROLLRAT LIBRARY</a>\n");
-    response.write('</br>Email: <a href="mailto:rollrat.cse@gmail.com">rollrat.cse@gmail.com</a>');
+    response.write('</br>Email: <a href="mailto:support@rollrat.com">support@rollrat.com</a>');
     response.write('</br>Copyright (c) 2020. rollrat. All rights reserved.</br>');
 
     var sites = [
